@@ -1,5 +1,5 @@
 /**************** extend css start ****************/
-@import url("https://fonts.googleapis.com/css?family=Cardo|Roboto:400,400i|Rufina");
+@import url("https://fonts.googleapis.com/css?family=MetropolisRegular|Roboto:400,400i|Rufina");
 /* line 6, ../../01 cl html template/New folder/May 2019/174 Ariclaw Lawyer/Ariclaw Lawyer Html/sass/_extends.scss */
 .btn_1 {
   background-image: linear-gradient(to left, #0a00a0 0%, #6159cc 49%, #0a00a0 100%);
@@ -9,7 +9,7 @@
 /**************** common css start ****************/
 /* line 3, ../../01 cl html template/New folder/May 2019/174 Ariclaw Lawyer/Ariclaw Lawyer Html/sass/_common.scss */
 body {
-  font-family: "Cardo", serif;
+  font-family: "MetropolisRegular", serif;
   padding: 0;
   margin: 0;
   font-size: 14px;
@@ -163,7 +163,7 @@ a:hover {
 /* line 84, ../../01 cl html template/New folder/May 2019/174 Ariclaw Lawyer/Ariclaw Lawyer Html/sass/_common.scss */
 h1, h2, h3, h4, h5, h6 {
   color: #161d22;
-  font-family: "Cardo", serif;
+  font-family: "MetropolisRegular", serif;
 }
 
 /* line 88, ../../01 cl html template/New folder/May 2019/174 Ariclaw Lawyer/Ariclaw Lawyer Html/sass/_common.scss */
@@ -2257,7 +2257,7 @@ ul {
   color: #000000;
   font-size: 16px;
   padding: 38px 25px;
-  font-family: "Cardo", serif;
+  font-family: "MetropolisRegular", serif;
   text-transform: capitalize;
   line-height: 12px;
 }
@@ -2629,6 +2629,10 @@ ul {
   padding-top: 130px;
 }
 
+.custom-padding2{
+  padding-top: 300px;
+}
+
 .custom-padding-image{
   padding-top: 100px;
 }
@@ -2643,6 +2647,9 @@ ul {
   .custom-image{
     width: 25em;
   }
+  .custom-padding2{
+    padding-top: 100px;
+  }
 }  
 
 
@@ -2654,11 +2661,14 @@ ul {
     width: 20em;
   }
   .custom-overlay{
-    background: #08060ff5;
+    background: #fdc300;
     height: 100%;
   }
   .custom-padding2{
     margin-top: -200px !important;
+  }
+  .custom-padding2{
+    padding-top: 10px;
   }
 } 
 
@@ -2757,7 +2767,7 @@ ul {
 /* line 152, ../../01 cl html template/New folder/May 2019/174 Ariclaw Lawyer/Ariclaw Lawyer Html/sass/_banner.scss */
 .More_About_Us {
   font-size: 16px;
-  font-family: "Cardo";
+  font-family: "MetropolisRegular";
   color: white;
   line-height: 1.75;
   text-align: center;
@@ -3641,7 +3651,7 @@ ul {
   border-radius: 0px;
   padding: .375rem 0rem;
   font-size: 14px;
-  font-family: "Cardo", serif;
+  font-family: "MetropolisRegular", serif;
   margin-bottom: 15px;
   padding-bottom: 15px;
   height: 40px;
@@ -4132,7 +4142,7 @@ ul {
 .client_review_text h3 {
   font-size: 22px;
   font-weight: 500;
-  font-family: "Cardo", serif;
+  font-family: "MetropolisRegular", serif;
   margin-top: 50px;
   margin-bottom: 10px;
 }
@@ -4582,7 +4592,7 @@ ul {
 /* line 26, ../../01 cl html template/New folder/May 2019/174 Ariclaw Lawyer/Ariclaw Lawyer Html/sass/_team.scss */
 .single_team_member .blog_item_date h3 {
   font-size: 24px;
-  font-family: "Cardo", serif;
+  font-family: "MetropolisRegular", serif;
   color: #fff;
   font-weight: 700;
 }
@@ -6207,7 +6217,7 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 13px;
   color: #999999;
   border: 0px solid transparent;
-  font-family: "Cardo", serif;
+  font-family: "MetropolisRegular", serif;
 }
 
 /* line 63, ../../01 cl html template/New folder/May 2019/174 Ariclaw Lawyer/Ariclaw Lawyer Html/sass/_footer.scss */
@@ -6227,7 +6237,7 @@ h1, h2, h3, h4, h5, h6 {
   border: 0;
   font-size: 12px;
   font-weight: 400;
-  font-family: "Cardo", serif;
+  font-family: "MetropolisRegular", serif;
   position: relative;
   left: 0;
 }
